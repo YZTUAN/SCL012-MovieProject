@@ -1,1 +1,1 @@
-#include	<stri
+#include	<string.h>
