@@ -2,4 +2,5 @@
 #include	"sorted-list.h"
 #include	<stdio.h>
 
-typedef struct airpl
+typedef struct airplaneT {
+	char *fli
