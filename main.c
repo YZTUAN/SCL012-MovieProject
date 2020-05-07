@@ -2,4 +2,4 @@
 #include	"sorted-list.h"
 #include	<stdio.h>
 
-typedef 
+typedef struct airpl
