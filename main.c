@@ -4,4 +4,5 @@
 
 typedef struct airplaneT {
 	char *flight;
-	int departH
+	int departHr;
+	int depar
