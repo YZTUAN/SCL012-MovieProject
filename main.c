@@ -6,4 +6,6 @@ typedef struct airplaneT {
 	char *flight;
 	int departHr;
 	int departMin;
-} Air
+} Airplane;
+
+int
