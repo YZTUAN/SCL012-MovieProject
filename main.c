@@ -8,4 +8,4 @@ typedef struct airplaneT {
 	int departMin;
 } Airplane;
 
-int
+int comparePlan
