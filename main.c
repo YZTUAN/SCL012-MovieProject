@@ -10,4 +10,5 @@ typedef struct airplaneT {
 
 int comparePlanes(void *p1, void *p2) {
 	Airplane *a = (Airplane *)p1;
-	Airplane *b = (Air
+	Airplane *b = (Airplane *)p2;
+	
