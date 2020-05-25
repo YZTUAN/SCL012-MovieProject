@@ -13,4 +13,6 @@ int comparePlanes(void *p1, void *p2) {
 	Airplane *b = (Airplane *)p2;
 	int timeA = (a->departHr)*60 + (a->departMin);
 
-	int timeB = (b->departHr)*60 + (b->departMi
+	int timeB = (b->departHr)*60 + (b->departMin);
+
+	retu
