@@ -15,4 +15,4 @@ int comparePlanes(void *p1, void *p2) {
 
 	int timeB = (b->departHr)*60 + (b->departMin);
 
-	retu
+	return (timeA 
