@@ -20,4 +20,4 @@ int comparePlanes(void *p1, void *p2) {
 
 int compareInts(void *p1, void *p2)
 {
-	int 
+	int i1 = *
