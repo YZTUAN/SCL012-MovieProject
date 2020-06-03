@@ -18,4 +18,6 @@ int comparePlanes(void *p1, void *p2) {
 	return (timeA - timeB);
 }
 
-int compareInts(void *p1, v
+int compareInts(void *p1, void *p2)
+{
+	int 
