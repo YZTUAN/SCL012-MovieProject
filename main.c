@@ -23,4 +23,7 @@ int compareInts(void *p1, void *p2)
 	int i1 = *(int*)p1;
 	int i2 = *(int*)p2;
 
-	return i1 - i
+	return i1 - i2;
+}
+
+int compa
