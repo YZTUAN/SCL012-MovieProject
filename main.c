@@ -26,4 +26,4 @@ int compareInts(void *p1, void *p2)
 	return i1 - i2;
 }
 
-int compareDoubles(void *p1,
+int compareDoubles(void *p1, void *p2)
