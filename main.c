@@ -28,4 +28,4 @@ int compareInts(void *p1, void *p2)
 
 int compareDoubles(void *p1, void *p2)
 {
-	double d1 = *(
+	double d1 = *(double*)p
