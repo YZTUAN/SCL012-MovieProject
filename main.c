@@ -34,4 +34,4 @@ int compareDoubles(void *p1, void *p2)
 	return (d1 < d2) ? -1 : ((d1 > d2) ? 1 : 0);
 }
 
-int compareStrings(void *
+int compareStrings(void *p1, void *p
