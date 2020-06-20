@@ -36,4 +36,5 @@ int compareDoubles(void *p1, void *p2)
 
 int compareStrings(void *p1, void *p2)
 {
-	char *s1 = 
+	char *s1 = p1;
+	char *s2 = p
