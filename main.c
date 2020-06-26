@@ -41,3 +41,5 @@ int compareStrings(void *p1, void *p2)
 
 	return strcmp(s1, s2);
 }
+
+//Destructor 
