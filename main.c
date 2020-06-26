@@ -39,4 +39,5 @@ int compareStrings(void *p1, void *p2)
 	char *s1 = p1;
 	char *s2 = p2;
 
-	return str
+	return strcmp(s1, s2);
+}
