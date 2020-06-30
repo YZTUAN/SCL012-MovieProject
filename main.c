@@ -43,4 +43,4 @@ int compareStrings(void *p1, void *p2)
 }
 
 //Destructor functions
-voi
+void destroyBasicTypeA
