@@ -44,4 +44,5 @@ int compareStrings(void *p1, void *p2)
 
 //Destructor functions
 void destroyBasicTypeAlloc(void *p){
-//	//For pointers to basic data types (int*,char*,double*,
+//	//For pointers to basic data types (int*,char*,double*,...)
+//		//Use 
