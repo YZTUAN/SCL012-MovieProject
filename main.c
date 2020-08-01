@@ -49,4 +49,4 @@ void destroyBasicTypeAlloc(void *p){
 	free(p);
 }
 //
-void destroyBasicTy
+void destroyBasicTypeNoAlloc(voi
