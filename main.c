@@ -50,4 +50,4 @@ void destroyBasicTypeAlloc(void *p){
 }
 //
 void destroyBasicTypeNoAlloc(void *p) {
-/
+//	//For point
