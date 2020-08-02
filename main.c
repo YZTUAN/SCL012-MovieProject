@@ -50,4 +50,4 @@ void destroyBasicTypeAlloc(void *p){
 }
 //
 void destroyBasicTypeNoAlloc(void *p) {
-//	//For pointers to basic data types (int*,
+//	//For pointers to basic data types (int*,char*,double
