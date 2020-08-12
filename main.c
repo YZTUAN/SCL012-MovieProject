@@ -51,4 +51,4 @@ void destroyBasicTypeAlloc(void *p){
 //
 void destroyBasicTypeNoAlloc(void *p) {
 //	//For pointers to basic data types (int*,char*,double*,...)
-//					//Use for memory that has not been allocated (e.g., 
+//					//Use for memory that has not been allocated (e.g., "int x = 
