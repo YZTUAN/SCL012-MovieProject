@@ -51,4 +51,5 @@ void destroyBasicTypeAlloc(void *p){
 //
 void destroyBasicTypeNoAlloc(void *p) {
 //	//For pointers to basic data types (int*,char*,double*,...)
-//					//Use for memory that has not been allocated (e.g., "int x = 5;SLInsert(mylist,&x);SLRemove(myl
+//					//Use for memory that has not been allocated (e.g., "int x = 5;SLInsert(mylist,&x);SLRemove(mylist,&x);")
+	
