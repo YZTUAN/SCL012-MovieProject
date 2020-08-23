@@ -59,4 +59,6 @@ void testWithInts() {
 	SortedListPtr SL;
 	SortedListIteratorPtr SLIter;
 
-	in
+	int n = 0;
+
+	int
