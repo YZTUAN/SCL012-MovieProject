@@ -57,4 +57,6 @@ void destroyBasicTypeNoAlloc(void *p) {
 //
 void testWithInts() {
 	SortedListPtr SL;
-	SortedListItera
+	SortedListIteratorPtr SLIter;
+
+	in
