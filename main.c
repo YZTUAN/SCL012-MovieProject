@@ -66,4 +66,5 @@ void testWithInts() {
 	int c = 10+2*n++;
 	int d = 10+2*n++;
 	int e = 10+2*n++;
-	in
+	int f = 10+2*n++;
+	
