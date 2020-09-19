@@ -71,4 +71,4 @@ void testWithInts() {
 	int h = 10+2*n++;
 	int i = 10+2*n++;
 	int j = 10+2*n++;
-	int k
+	int k = 10+2*n+
