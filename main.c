@@ -74,4 +74,4 @@ void testWithInts() {
 	int k = 10+2*n++;
 	int l = 10+2*n++;
 
-	SL = SLCreate(
+	SL = SLCreate(compareInts,des
