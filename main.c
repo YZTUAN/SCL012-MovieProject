@@ -75,4 +75,5 @@ void testWithInts() {
 	int l = 10+2*n++;
 
 	SL = SLCreate(compareInts,destroyBasicTypeNoAlloc);
-	SLInser
+	SLInsert(SL,&a);
+	SLInse
