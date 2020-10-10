@@ -77,4 +77,4 @@ void testWithInts() {
 	SL = SLCreate(compareInts,destroyBasicTypeNoAlloc);
 	SLInsert(SL,&a);
 	SLInsert(SL,&b);
-	
+	SLInsert(SL,&c);
