@@ -81,4 +81,5 @@ void testWithInts() {
 	SLInsert(SL,&d);
 	SLInsert(SL,&e);
 	SLInsert(SL,&f);
-	SLInse
+	SLInsert(SL,&g);
+	S
