@@ -89,4 +89,4 @@ void testWithInts() {
 	SLInsert(SL,&l);
 	SLInsert(SL,&d);
 
-	
+	SLIter = SLCrea
