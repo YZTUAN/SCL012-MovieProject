@@ -91,4 +91,4 @@ void testWithInts() {
 
 	SLIter = SLCreateIterator(SL);
 
-	printf("First node 
+	printf("First node : %d\n",(SLGetItem
