@@ -91,4 +91,4 @@ void testWithInts() {
 
 	SLIter = SLCreateIterator(SL);
 
-	printf("First node : %d\n",(SLGetItem
+	printf("First node : %d\n",(SLGetItem(SLIter) == NU
