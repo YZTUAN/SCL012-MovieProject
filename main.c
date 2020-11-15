@@ -92,4 +92,4 @@ void testWithInts() {
 	SLIter = SLCreateIterator(SL);
 
 	printf("First node : %d\n",(SLGetItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
-	printf("S
+	printf("Second node
