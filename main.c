@@ -97,4 +97,4 @@ void testWithInts() {
 	printf("Fourth node : %d\n",(SLNextItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
 	printf("Fifth node : %d\n",(SLNextItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
 	printf("Sixth node : %d\n",(SLNextItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
-	p
+	printf("Seven
