@@ -101,4 +101,4 @@ void testWithInts() {
 	printf("Eighth node : %d\n",(SLNextItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
 	printf("Ninth node : %d\n",(SLNextItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
 	printf("Tenth node : %d\n",(SLNextItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
-	printf("Eleventh node : %d\n",(SLNex
+	printf("Eleventh node : %d\n",(SLNextItem(SLIter) == 
