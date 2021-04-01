@@ -107,4 +107,9 @@ void testWithInts() {
 	printf("Thirteenth node : %d\n",(SLNextItem(SLIter) == NULL?0:*((int *)SLGetItem(SLIter))));
 
 	SLDestroyIterator(SLIter);
-	SLDestr
+	SLDestroy(SL);
+
+}
+
+//
+voi
