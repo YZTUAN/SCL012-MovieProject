@@ -115,4 +115,4 @@ void testWithInts() {
 void testWithStrings1() {
 	SortedListPtr SL;
 	SortedListIteratorPtr SLIter;
-	So
+	SortedListIterator
