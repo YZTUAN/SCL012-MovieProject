@@ -113,4 +113,5 @@ void testWithInts() {
 
 //
 void testWithStrings1() {
-	SortedListPtr SL
+	SortedListPtr SL;
+	SortedL
