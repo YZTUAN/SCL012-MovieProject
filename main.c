@@ -112,4 +112,5 @@ void testWithInts() {
 }
 
 //
-void testWithStrings1() 
+void testWithStrings1() {
+	SortedListPtr SL
