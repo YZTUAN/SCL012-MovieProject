@@ -118,4 +118,4 @@ void testWithStrings1() {
 	SortedListIteratorPtr SLIter1;
 
 
-	
+	char *a = "a
