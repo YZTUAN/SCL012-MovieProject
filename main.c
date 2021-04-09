@@ -119,4 +119,5 @@ void testWithStrings1() {
 
 
 	char *a = "aello";
-	cha
+	char *b = "bello";
+	
