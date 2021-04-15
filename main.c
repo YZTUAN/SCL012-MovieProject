@@ -123,4 +123,4 @@ void testWithStrings1() {
 	char *c = "cello";
 	char *d = "dello";
 	char *e = "eello";
-	c
+	char *f = "f
