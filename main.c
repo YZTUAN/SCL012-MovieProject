@@ -124,4 +124,5 @@ void testWithStrings1() {
 	char *d = "dello";
 	char *e = "eello";
 	char *f = "fello";
-	char *g = "gello
+	char *g = "gello";
+	char *h 
