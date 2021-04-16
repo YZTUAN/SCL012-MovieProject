@@ -125,4 +125,4 @@ void testWithStrings1() {
 	char *e = "eello";
 	char *f = "fello";
 	char *g = "gello";
-	char *h 
+	char *h = "hello";
