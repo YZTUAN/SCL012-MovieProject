@@ -126,3 +126,4 @@ void testWithStrings1() {
 	char *f = "fello";
 	char *g = "gello";
 	char *h = "hello";
+	char *i = 
