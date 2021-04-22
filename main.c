@@ -129,4 +129,7 @@ void testWithStrings1() {
 	char *i = "iello";
 	char *j = "jello";
 	char *k = "kello";
-	char *l = "lello
+	char *l = "lello";
+
+
+	SL = SLCr
