@@ -133,4 +133,5 @@ void testWithStrings1() {
 
 
 	SL = SLCreate(compareStrings,destroyBasicTypeNoAlloc);
-	SLInsert
+	SLInsert(SL,a);
+	SL
