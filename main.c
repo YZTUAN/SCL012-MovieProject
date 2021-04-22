@@ -129,4 +129,4 @@ void testWithStrings1() {
 	char *i = "iello";
 	char *j = "jello";
 	char *k = "kello";
-	char
+	char *l = "lello
