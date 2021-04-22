@@ -132,4 +132,4 @@ void testWithStrings1() {
 	char *l = "lello";
 
 
-	SL = SLCreate(compareSt
+	SL = SLCreate(compareStrings,destro
