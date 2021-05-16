@@ -147,4 +147,4 @@ void testWithStrings1() {
 	SLInsert(SL,l);
 	SLInsert(SL,d);
 
-	S
+	SLIter = SLCr
