@@ -148,3 +148,5 @@ void testWithStrings1() {
 	SLInsert(SL,d);
 
 	SLIter = SLCreateIterator(SL);
+
+	printf(
