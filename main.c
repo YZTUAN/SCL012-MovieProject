@@ -149,4 +149,4 @@ void testWithStrings1() {
 
 	SLIter = SLCreateIterator(SL);
 
-	printf(
+	printf("First node : %s
