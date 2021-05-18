@@ -150,4 +150,4 @@ void testWithStrings1() {
 	SLIter = SLCreateIterator(SL);
 
 	printf("First node : %s\n",((char *)SLGetItem(SLIter)));
-	printf("Second nod
+	printf("Second node : %s\n",((char *)SLN
