@@ -163,4 +163,4 @@ void testWithStrings1() {
 	printf("Eleventh node : %s\n",((char *)SLNextItem(SLIter)));
 	printf("Twelfth node : %s\n",((char *)SLNextItem(SLIter)));
 	SLIter1 = SLCreateIterator(SL);
-	printf("First node : %s\n",((char *)S
+	printf("First node : %s\n",((char *)SLGetItem(S
