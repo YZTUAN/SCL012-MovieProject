@@ -162,4 +162,4 @@ void testWithStrings1() {
 	SLRemove(SL, j);
 	printf("Eleventh node : %s\n",((char *)SLNextItem(SLIter)));
 	printf("Twelfth node : %s\n",((char *)SLNextItem(SLIter)));
-	SLIter1 = 
+	SLIter1 = SLCreateIt
