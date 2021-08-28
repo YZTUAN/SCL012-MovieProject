@@ -180,3 +180,4 @@ void testWithStrings1() {
 	printf("Thirteenth node : %s\n",((char *)SLNextItem(SLIter)));
 
 	SLDestroyIterator(SLIter);
+	SLDestro
