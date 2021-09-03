@@ -181,4 +181,8 @@ void testWithStrings1() {
 
 	SLDestroyIterator(SLIter);
 	SLDestroyIterator(SLIter1);
-	SLDestroy
+	SLDestroy(SL);
+
+}
+//
+void 
