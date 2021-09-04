@@ -185,4 +185,5 @@ void testWithStrings1() {
 
 }
 //
-void testWithStrings2()
+void testWithStrings2() {
+	SortedListPt
