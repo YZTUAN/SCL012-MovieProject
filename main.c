@@ -186,4 +186,5 @@ void testWithStrings1() {
 }
 //
 void testWithStrings2() {
-	SortedListPt
+	SortedListPtr SL;
+	S
