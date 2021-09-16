@@ -188,4 +188,5 @@ void testWithStrings1() {
 void testWithStrings2() {
 	SortedListPtr SL;
 	SortedListIteratorPtr SLIter;
-	SortedListIteratorPtr
+	SortedListIteratorPtr SLIter1;
+	
