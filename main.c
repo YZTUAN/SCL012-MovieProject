@@ -190,3 +190,4 @@ void testWithStrings2() {
 	SortedListIteratorPtr SLIter;
 	SortedListIteratorPtr SLIter1;
 	
+	char *a =
