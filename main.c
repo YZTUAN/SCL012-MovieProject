@@ -191,4 +191,4 @@ void testWithStrings2() {
 	SortedListIteratorPtr SLIter1;
 	
 	char *a = "hello";
-	
+	char *b = "how
