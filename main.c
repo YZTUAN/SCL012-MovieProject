@@ -193,4 +193,4 @@ void testWithStrings2() {
 	char *a = "hello";
 	char *b = "how are you";
 	char *c = "bello";
-	
+	char *d =
