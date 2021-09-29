@@ -197,4 +197,5 @@ void testWithStrings2() {
 	char *e = "mello";
 	char *f = "mellow";
 	char *g = "meow";
-	char *h =
+	char *h = "nyan cat";
+	
