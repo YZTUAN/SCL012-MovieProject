@@ -199,3 +199,4 @@ void testWithStrings2() {
 	char *g = "meow";
 	char *h = "nyan cat";
 	char *i = "anyang hoseo";
+	char *j = "salam
