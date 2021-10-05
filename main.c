@@ -201,3 +201,4 @@ void testWithStrings2() {
 	char *i = "anyang hoseo";
 	char *j = "salamat datang";
 	char *k = "myanmar";
+	char *l = "naypiydaw";
