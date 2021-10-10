@@ -202,3 +202,5 @@ void testWithStrings2() {
 	char *j = "salamat datang";
 	char *k = "myanmar";
 	char *l = "naypiydaw";
+
+	SL = S
