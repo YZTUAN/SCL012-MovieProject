@@ -204,4 +204,4 @@ void testWithStrings2() {
 	char *l = "naypiydaw";
 
 	SL = SLCreate(compareStrings,destroyBasicTypeNoAlloc);
-	SL
+	SLInsert(SL,
