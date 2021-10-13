@@ -203,4 +203,5 @@ void testWithStrings2() {
 	char *k = "myanmar";
 	char *l = "naypiydaw";
 
-	SL = SLCreate(compareStrings,destroyBasicType
+	SL = SLCreate(compareStrings,destroyBasicTypeNoAlloc);
+	SL
