@@ -206,4 +206,5 @@ void testWithStrings2() {
 	SL = SLCreate(compareStrings,destroyBasicTypeNoAlloc);
 	SLInsert(SL,a);
 	SLInsert(SL,b);
-	SLInsert(S
+	SLInsert(SL,c);
+	SLIns
