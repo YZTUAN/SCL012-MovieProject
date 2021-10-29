@@ -217,4 +217,6 @@ void testWithStrings2() {
 	SLInsert(SL,k);
 	SLInsert(SL,l);
 	SLInsert(SL,f);
-	SLIns
+	SLInsert(SL,d);
+
+	S
