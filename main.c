@@ -219,4 +219,5 @@ void testWithStrings2() {
 	SLInsert(SL,f);
 	SLInsert(SL,d);
 
-	SLIter = SLCreat
+	SLIter = SLCreateIterator(SL);
+
