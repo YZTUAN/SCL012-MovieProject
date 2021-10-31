@@ -221,3 +221,4 @@ void testWithStrings2() {
 
 	SLIter = SLCreateIterator(SL);
 
+	printf("First
