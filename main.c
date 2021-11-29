@@ -229,4 +229,4 @@ void testWithStrings2() {
 	printf("Sixth node : %s\n",((char *)SLNextItem(SLIter)));
 	printf("Seventh node : %s\n",((char *)SLNextItem(SLIter)));
 	printf("Eighth node : %s\n",((char *)SLNextItem(SLIter)));
-	printf("Ninth node : 
+	printf("Ninth node : %s\n",((char *
