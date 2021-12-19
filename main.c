@@ -232,4 +232,4 @@ void testWithStrings2() {
 	printf("Ninth node : %s\n",((char *)SLNextItem(SLIter)));
 	printf("Tenth node : %s\n",((char *)SLNextItem(SLIter)));
 	SLRemove(SL, j);
-	printf("Eleventh node : %s\n"
+	printf("Eleventh node : %s\n",((char *)SLNextIt
