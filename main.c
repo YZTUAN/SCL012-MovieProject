@@ -234,4 +234,4 @@ void testWithStrings2() {
 	SLRemove(SL, j);
 	printf("Eleventh node : %s\n",((char *)SLNextItem(SLIter)));
 	printf("Twelfth node : %s\n",((char *)SLNextItem(SLIter)));
-	SL
+	SLIter1 = SLC
