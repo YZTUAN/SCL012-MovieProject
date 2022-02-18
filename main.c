@@ -243,4 +243,4 @@ void testWithStrings2() {
 	printf("Fifth node : %s\n",((char *)SLNextItem(SLIter1)));
 	printf("Sixth node : %s\n",((char *)SLNextItem(SLIter1)));
 	printf("Seventh node : %s\n",((char *)SLNextItem(SLIter1)));
-	printf("Eighth node : %s\n",
+	printf("Eighth node : %s\n",((char *)SLNe
