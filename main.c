@@ -249,4 +249,6 @@ void testWithStrings2() {
 	printf("Eleventh node : %s\n",((char *)SLNextItem(SLIter1)));
 	printf("Twelfth node : %s\n",((char *)SLNextItem(SLIter1)));
 
-	printf("Thirteenth node : %s\n",((char *)SLNextItem(SLIter1))
+	printf("Thirteenth node : %s\n",((char *)SLNextItem(SLIter1)));
+
+	SLDestroyIterato
