@@ -251,4 +251,5 @@ void testWithStrings2() {
 
 	printf("Thirteenth node : %s\n",((char *)SLNextItem(SLIter1)));
 
-	SLDestroyIterato
+	SLDestroyIterator(SLIter1);
+	SLDe
