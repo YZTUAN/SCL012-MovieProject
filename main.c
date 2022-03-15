@@ -253,3 +253,4 @@ void testWithStrings2() {
 
 	SLDestroyIterator(SLIter1);
 	SLDestroyIterator(SLIter);
+	SLDestroy(SL
