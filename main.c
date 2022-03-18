@@ -256,4 +256,4 @@ void testWithStrings2() {
 	SLDestroy(SL);
 }
 //
-void test
+void testWithAirplanes() {
