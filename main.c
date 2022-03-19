@@ -257,4 +257,5 @@ void testWithStrings2() {
 }
 //
 void testWithAirplanes() {
-	SortedList
+	SortedListPtr SL;
+	Sort
