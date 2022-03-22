@@ -259,4 +259,4 @@ void testWithStrings2() {
 void testWithAirplanes() {
 	SortedListPtr SL;
 	SortedListIteratorPtr SLIter;
-	Sort
+	SortedListIteratorP
