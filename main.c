@@ -261,4 +261,4 @@ void testWithAirplanes() {
 	SortedListIteratorPtr SLIter;
 	SortedListIteratorPtr SLIter1;
 
-	Air
+	Airplane *B2 = (Airpl
