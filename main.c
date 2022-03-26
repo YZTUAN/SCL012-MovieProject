@@ -261,4 +261,5 @@ void testWithAirplanes() {
 	SortedListIteratorPtr SLIter;
 	SortedListIteratorPtr SLIter1;
 
-	Airplane *B2 = (Airplane *)malloc(sizeof(Airplan
+	Airplane *B2 = (Airplane *)malloc(sizeof(Airplane));
+	B2->fl
