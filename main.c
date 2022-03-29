@@ -265,4 +265,4 @@ void testWithAirplanes() {
 	B2->flight = "B-2 Spirit";
 	B2->departHr = 0;
 	B2->departMin = 0;
-	Air
+	Airplane *SR71 = (A
