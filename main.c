@@ -265,4 +265,5 @@ void testWithAirplanes() {
 	B2->flight = "B-2 Spirit";
 	B2->departHr = 0;
 	B2->departMin = 0;
-	Airplane *SR71 = (Airplane *)malloc(sizeof(Airpl
+	Airplane *SR71 = (Airplane *)malloc(sizeof(Airplane));
+	SR71-
