@@ -268,4 +268,5 @@ void testWithAirplanes() {
 	Airplane *SR71 = (Airplane *)malloc(sizeof(Airplane));
 	SR71->flight = "SR-71 Blackbird";
 	SR71->departHr = 2;
-	SR71->departMin = 3
+	SR71->departMin = 37;
+	Airplan
