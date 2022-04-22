@@ -273,4 +273,4 @@ void testWithAirplanes() {
 	F35->flight = "F-35 Lighting II";
 	F35->departHr = 11;
 	F35->departMin = 12;
-	Airplane *F22 = (Airplane *)m
+	Airplane *F22 = (Airplane *)malloc(sizeof(Air
