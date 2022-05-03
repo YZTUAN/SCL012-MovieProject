@@ -281,4 +281,4 @@ void testWithAirplanes() {
 	F117->flight = "F-117 Nighthawk";
 	F117->departHr = 11;
 	F117->departMin = 40;
-	Airpl
+	Airplane *A12 = (Airp
