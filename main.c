@@ -282,4 +282,4 @@ void testWithAirplanes() {
 	F117->departHr = 11;
 	F117->departMin = 40;
 	Airplane *A12 = (Airplane *)malloc(sizeof(Airplane));
-	A12->flight = "
+	A12->flight = "A-12 Aveng
