@@ -283,4 +283,4 @@ void testWithAirplanes() {
 	F117->departMin = 40;
 	Airplane *A12 = (Airplane *)malloc(sizeof(Airplane));
 	A12->flight = "A-12 Avenger II";
-	A1
+	A12->depart
