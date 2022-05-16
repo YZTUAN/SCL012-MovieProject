@@ -285,3 +285,5 @@ void testWithAirplanes() {
 	A12->flight = "A-12 Avenger II";
 	A12->departHr = 22;
 	A12->departMin = 21;
+
+	SL = SLCreate(c
