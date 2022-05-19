@@ -286,4 +286,6 @@ void testWithAirplanes() {
 	A12->departHr = 22;
 	A12->departMin = 21;
 
-	SL = SLCreate(comparePlanes,destroyBasicTypeAll
+	SL = SLCreate(comparePlanes,destroyBasicTypeAlloc);
+
+	SLI
