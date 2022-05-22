@@ -289,4 +289,4 @@ void testWithAirplanes() {
 	SL = SLCreate(comparePlanes,destroyBasicTypeAlloc);
 
 	SLInsert(SL,F35);
-	S
+	SLInsert(SL,F1
