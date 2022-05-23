@@ -290,4 +290,4 @@ void testWithAirplanes() {
 
 	SLInsert(SL,F35);
 	SLInsert(SL,F117);
-	SLI
+	SLInsert(SL,B2);
