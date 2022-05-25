@@ -293,4 +293,4 @@ void testWithAirplanes() {
 	SLInsert(SL,B2);
 	SLIter = SLCreateIterator(SL);
 	
-	pri
+	printf("Day 1:\n
