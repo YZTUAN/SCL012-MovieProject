@@ -291,4 +291,6 @@ void testWithAirplanes() {
 	SLInsert(SL,F35);
 	SLInsert(SL,F117);
 	SLInsert(SL,B2);
-	SLIter = SLCreateItera
+	SLIter = SLCreateIterator(SL);
+	
+	pri
