@@ -294,4 +294,4 @@ void testWithAirplanes() {
 	SLIter = SLCreateIterator(SL);
 	
 	printf("Day 1:\n");
-	printf("
+	printf("Last pla
