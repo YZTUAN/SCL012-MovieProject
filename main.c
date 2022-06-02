@@ -294,4 +294,4 @@ void testWithAirplanes() {
 	SLIter = SLCreateIterator(SL);
 	
 	printf("Day 1:\n");
-	printf("Last plane to arrive : %s\n",(SLGetItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SL
+	printf("Last plane to arrive : %s\n",(SLGetItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))
