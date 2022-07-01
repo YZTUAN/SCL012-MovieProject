@@ -300,4 +300,4 @@ void testWithAirplanes() {
 	printf("Seventh plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
 	SLInsert(SL,A12);
 	printf("Sixth plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
-	printf("Fifth plane to arrive : 
+	printf("Fifth plane to arrive : %s\n",(SLNe
