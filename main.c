@@ -304,4 +304,6 @@ void testWithAirplanes() {
 	printf("Fourth plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
 	printf("Third plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
 	printf("Second plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
-	printf("First plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->f
+	printf("First plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
+	
+	print
