@@ -306,4 +306,4 @@ void testWithAirplanes() {
 	printf("Second plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
 	printf("First plane to arrive : %s\n",(SLNextItem(SLIter) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter))->flight));
 	
-	print
+	printf("Day 2:
