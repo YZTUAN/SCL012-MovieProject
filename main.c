@@ -308,4 +308,4 @@ void testWithAirplanes() {
 	
 	printf("Day 2:\n");
 	SLIter1 = SLCreateIterator(SL);
-	printf(
+	printf("Last plane to ar
