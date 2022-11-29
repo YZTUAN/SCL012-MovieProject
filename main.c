@@ -310,4 +310,5 @@ void testWithAirplanes() {
 	SLIter1 = SLCreateIterator(SL);
 	printf("Last plane to arrive : %s\n",(SLGetItem(SLIter1) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter1))->flight));
 	printf("Seventh plane to arrive : %s\n",(SLNextItem(SLIter1) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter1))->flight));
-	printf("Sixth plane to arrive : %s\n",(SLNextItem(SLIter1) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLI
+	printf("Sixth plane to arrive : %s\n",(SLNextItem(SLIter1) == NULL?"Lost in flight!":((Airplane *)SLGetItem(SLIter1))->flight));
+	SL
