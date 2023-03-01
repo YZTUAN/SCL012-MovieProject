@@ -321,4 +321,5 @@ void testWithAirplanes() {
 	SLDestroy(SL);
 }
 //
-int m
+int main() {
+	tes
