@@ -322,4 +322,5 @@ void testWithAirplanes() {
 }
 //
 int main() {
-	testWithInts()
+	testWithInts();
+	printf("int te
