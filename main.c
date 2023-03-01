@@ -322,4 +322,4 @@ void testWithAirplanes() {
 }
 //
 int main() {
-	tes
+	testWithInts()
