@@ -323,4 +323,4 @@ void testWithAirplanes() {
 //
 int main() {
 	testWithInts();
-	printf("int te
+	printf("int test successful
