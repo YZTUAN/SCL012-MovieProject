@@ -325,4 +325,4 @@ int main() {
 	testWithInts();
 	printf("int test successful\n");
  	testWithStrings1();
-	printf("string tes
+	printf("string test 1 successfu
