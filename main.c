@@ -327,4 +327,4 @@ int main() {
  	testWithStrings1();
 	printf("string test 1 successful\n");
 	testWithStrings2();
-	printf("string test 2 succ
+	printf("string test 2 successful\n");
