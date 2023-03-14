@@ -329,4 +329,5 @@ int main() {
 	testWithStrings2();
 	printf("string test 2 successful\n");
 	testWithAirplanes();
-	printf("
+	printf("Liftoff!\n");
+	re
