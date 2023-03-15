@@ -16,3 +16,13 @@ void checkPointers(Node *node,DestructFuncT destroy) {
 SortedListPtr SLCreate(CompareFuncT cf, DestructFuncT df) {
 
 	SortedListPtr SL = (SortedListPtr) malloc(sizeof(struct SortedList));
+
+	if(SL == NULL) {
+		return NULL;
+	}
+	SL->first = NULL;
+	SL->compare = cf;
+	SL->destroy = df;
+
+	return SL;
+}
