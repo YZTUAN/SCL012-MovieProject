@@ -38,3 +38,15 @@ void DeleteNode(Node *node, DestructFuncT destroy) {
 	if(node == NULL) {
 		return;
 	}
+	DeleteNode(node->next, destroy);
+	destroy(node->data);
+	free(node);
+
+	return;
+}
+
+/*This method creates and adds new nodes to the SortedList.*/
+int SLInsert(SortedListPtr list, void *newObj) {
+	if(newObj == NULL) {
+		return 0;
+	}
