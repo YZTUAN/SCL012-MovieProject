@@ -26,3 +26,15 @@ SortedListPtr SLCreate(CompareFuncT cf, DestructFuncT df) {
 
 	return SL;
 }
+
+/*This function will destroy the Sorted list and all its nodes using the given destruct function*/
+void DeleteNode(Node*, DestructFuncT);
+void SLDestroy(SortedListPtr list){
+	DeleteNode(list->first, list->destroy);
+	free(list);
+}
+
+void DeleteNode(Node *node, DestructFuncT destroy) {
+	if(node == NULL) {
+		return;
+	}
