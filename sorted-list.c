@@ -69,3 +69,11 @@ int SLInsert(SortedListPtr list, void *newObj) {
 	}
 
 	if(curr == NULL) {
+		if(prev == NULL) {
+	//		printf("first node is initialized\n");
+			list->first = newNode;
+		} else {
+			prev->next = newNode;
+		}
+		newNode->next = NULL;
+	} else {
