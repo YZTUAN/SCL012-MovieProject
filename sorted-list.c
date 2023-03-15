@@ -50,3 +50,22 @@ int SLInsert(SortedListPtr list, void *newObj) {
 	if(newObj == NULL) {
 		return 0;
 	}
+
+	Node *newNode = (Node *)malloc(sizeof(Node));
+
+	if (newNode == NULL){
+		printf("Error\n");
+		return 0;
+	}
+
+	newNode->data = newObj;
+	newNode->numPointers = 0;
+	CompareFuncT compare = list->compare;
+
+	Node *curr = list->first, *prev = NULL;
+	while(curr != NULL && compare(curr->data, newObj) > 0) {
+		prev = curr;
+		curr = curr->next;
+	}
+
+	if(curr == NULL) {
