@@ -77,3 +77,14 @@ int SLInsert(SortedListPtr list, void *newObj) {
 		}
 		newNode->next = NULL;
 	} else {
+		if(compare(curr->data, newObj) == 0) {
+			free(newNode);
+			if(curr->data != newObj) {
+				list->destroy(newObj);
+			}
+			printf("node was freed because of duplicate \n");
+			return 0;
+		}
+		if(prev == NULL) {
+			newNode->next = curr;
+			list->first = newNode;
