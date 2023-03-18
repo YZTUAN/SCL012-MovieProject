@@ -88,3 +88,19 @@ int SLInsert(SortedListPtr list, void *newObj) {
 		if(prev == NULL) {
 			newNode->next = curr;
 			list->first = newNode;
+		} else {
+			newNode->next = curr;
+			prev->next = newNode;
+		}
+	}
+	newNode->numPointers++;
+	printf("%s %d\n",(char *)(newNode->data),newNode->numPointers);
+	return 1;
+}
+
+/*This method removes nodes from the sorted list, selected by data object.
+ * However, node is disconnected from sorted list but not destroyed unless
+ * no pointers (including iterator pointers) are pointing to it.*/
+int SLRemove(SortedListPtr list, void *newObj) {
+	Node *prev, *curr;
+	for(curr = list->first, prev = NULL; curr != NULL; curr = curr->next) {
