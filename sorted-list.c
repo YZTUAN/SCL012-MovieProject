@@ -134,3 +134,19 @@ SortedListIteratorPtr SLCreateIterator(SortedListPtr list) {
 		return NULL;
 	}
 	SortedListIteratorPtr iter = (SortedListIteratorPtr) malloc(sizeof(struct SortedListIterator));
+	iter->SLNode = list->first;
+	iter->destroy = list->destroy;
+	list->first->numPointers++;
+	printf("Create: %s %d\n",(char *)(iter->SLNode->data),iter->SLNode->numPointers);
+	return iter;
+}
+
+/*This method destroys the iterator object and frees any allocated memory for it.*/
+void SLDestroyIterator(SortedListIteratorPtr iter) {
+	if(iter == NULL) {
+		return;
+	}
+	if(iter->SLNode != NULL) {
+		iter->SLNode->numPointers--;
+		printf("Destroy Iterator: %s %d\n",(char *)(iter->SLNode->data),iter->SLNode->numPointers);
+		checkPointers(iter->SLNode,iter->destroy);
