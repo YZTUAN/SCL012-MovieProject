@@ -104,3 +104,16 @@ int SLInsert(SortedListPtr list, void *newObj) {
 int SLRemove(SortedListPtr list, void *newObj) {
 	Node *prev, *curr;
 	for(curr = list->first, prev = NULL; curr != NULL; curr = curr->next) {
+		if(curr->data == newObj) {
+			break;
+		}
+		prev = curr;
+	}
+	if (curr == NULL){
+		return 0;
+	} 
+	if(prev == NULL){
+		list->first = list->first->next;
+	}
+	else{
+		prev->next = curr->next;
