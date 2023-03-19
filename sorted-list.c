@@ -117,3 +117,20 @@ int SLRemove(SortedListPtr list, void *newObj) {
 	}
 	else{
 		prev->next = curr->next;
+
+	}
+	curr->numPointers--;
+	printf("Remove: %s %d\n",(char *)(curr->data),curr->numPointers);
+	checkPointers(curr,list->destroy);
+	return 1;
+}
+
+/*This method creates the iterator that points to the 1st element in the SortedList.*/
+SortedListIteratorPtr SLCreateIterator(SortedListPtr list) {
+	if(list == NULL) {
+		return NULL;
+	}
+	if(list->first == NULL) {
+		return NULL;
+	}
+	SortedListIteratorPtr iter = (SortedListIteratorPtr) malloc(sizeof(struct SortedListIterator));
