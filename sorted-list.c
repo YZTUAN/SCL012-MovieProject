@@ -150,3 +150,15 @@ void SLDestroyIterator(SortedListIteratorPtr iter) {
 		iter->SLNode->numPointers--;
 		printf("Destroy Iterator: %s %d\n",(char *)(iter->SLNode->data),iter->SLNode->numPointers);
 		checkPointers(iter->SLNode,iter->destroy);
+	}
+	free(iter);
+}
+
+/*This method returns a void pointer to the data in the node that the iterator is currently pointing to*/
+void *SLGetItem(SortedListIteratorPtr iter) {
+	if(iter == NULL) {
+		printf("Error");
+		return NULL;
+	}
+	if(iter->SLNode == NULL) {
+		return 0;
