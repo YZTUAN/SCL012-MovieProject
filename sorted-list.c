@@ -180,3 +180,11 @@ void *SLNextItem(SortedListIteratorPtr iter) {
 	iter->SLNode->numPointers--;
 	printf("NextItem: %s %d\n",(char *)(iter->SLNode->data),iter->SLNode->numPointers);
 	iter->SLNode = iter->SLNode->next;
+	checkPointers(initial,iter->destroy);
+	if(iter->SLNode == NULL) {
+		return NULL;
+	}
+	iter->SLNode->numPointers++;
+	printf("%s %d\n",(char *)(iter->SLNode->data),iter->SLNode->numPointers);
+	return iter->SLNode->data;
+}
