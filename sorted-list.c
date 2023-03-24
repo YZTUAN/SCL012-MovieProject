@@ -162,3 +162,21 @@ void *SLGetItem(SortedListIteratorPtr iter) {
 	}
 	if(iter->SLNode == NULL) {
 		return 0;
+	}
+	return iter->SLNode->data;
+}
+
+/*This method increments the iterator such that it points to the next node in the list and returns a void pointer to the data in that node.*/
+void *SLNextItem(SortedListIteratorPtr iter) {
+	Node *initial;
+	if(iter == NULL) {
+		printf("Error");
+		return NULL;
+	}
+	if(iter->SLNode == NULL) {
+		return NULL;
+	}
+	initial = iter->SLNode;
+	iter->SLNode->numPointers--;
+	printf("NextItem: %s %d\n",(char *)(iter->SLNode->data),iter->SLNode->numPointers);
+	iter->SLNode = iter->SLNode->next;
