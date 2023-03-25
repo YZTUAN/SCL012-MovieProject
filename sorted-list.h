@@ -29,3 +29,13 @@ typedef struct node {
 	int numPointers;
 	struct node *next;
 } Node;
+/*
+ * Sorted list type.  You need to fill in the type as part of your implementation.
+ */
+struct SortedList
+{
+Node *first;
+CompareFuncT compare;
+DestructFuncT destroy;
+};
+typedef struct SortedList* SortedListPtr;
