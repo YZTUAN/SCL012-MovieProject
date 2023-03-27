@@ -39,3 +39,15 @@ CompareFuncT compare;
 DestructFuncT destroy;
 };
 typedef struct SortedList* SortedListPtr;
+
+
+/*
+ * Iterator type for user to "walk" through the list item by item, from
+ * beginning to end.  You need to fill in the type as part of your implementation.
+ */
+struct SortedListIterator
+{
+Node* SLNode;
+DestructFuncT destroy;
+};
+typedef struct SortedListIterator* SortedListIteratorPtr;
