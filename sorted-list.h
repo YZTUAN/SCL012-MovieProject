@@ -84,3 +84,18 @@ void SLDestroy(SortedListPtr list);
  * order.
  *
  * If the function succeeds, it returns 1, othrewise it returns 0.
+ *
+ * You need to fill in this function as part of your implementation.
+ */
+
+int SLInsert(SortedListPtr list, void *newObj);
+
+
+/*
+ * SLRemove removes a given object from a sorted list.  Sorted ordering
+ * should be maintained.  SLRemove may not change the object whose
+ * pointer is passed as the second argument.  This allows you to pass
+ * a pointer to a temp object equal to the object in the sorted list you
+ * want to remove.
+ *
+ * If the function succeeds, it returns 1, otherwise it returns 0.
