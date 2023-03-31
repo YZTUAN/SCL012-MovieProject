@@ -68,3 +68,19 @@ typedef struct SortedListIterator* SortedListIteratorPtr;
  */
 
 SortedListPtr SLCreate(CompareFuncT cf, DestructFuncT df);
+
+/*
+ * SLDestroy destroys a list, freeing all dynamically allocated memory.
+ *
+ * You need to fill in this function as part of your implementation.
+ */
+void SLDestroy(SortedListPtr list);
+
+
+/*
+ * SLInsert inserts a given object into a sorted list, maintaining sorted
+ * order of all objects in the list.  If the new object is equal to a subset
+ * of existing objects in the list, then the subset can be kept in any
+ * order.
+ *
+ * If the function succeeds, it returns 1, othrewise it returns 0.
