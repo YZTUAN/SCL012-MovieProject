@@ -111,3 +111,13 @@ int SLRemove(SortedListPtr list, void *newObj);
  * to "walk" through the list from beginning to the end using SLNextItem.
  *
  * If the function succeeds, it returns a non-NULL pointer to a
+ * SortedListIterT object, otherwise it returns NULL.  The SortedListT
+ * object should point to the first item in the sorted list, if the sorted
+ * list is not empty.  If the sorted list object is empty, then the iterator
+ * should have a null pointer.
+ *
+ * You need to fill in this function as part of your implementation.
+ */
+
+SortedListIteratorPtr SLCreateIterator(SortedListPtr list);
+
