@@ -99,3 +99,15 @@ int SLInsert(SortedListPtr list, void *newObj);
  * want to remove.
  *
  * If the function succeeds, it returns 1, otherwise it returns 0.
+ *
+ * You need to fill in this function as part of your implementation.
+ */
+
+int SLRemove(SortedListPtr list, void *newObj);
+
+
+/*
+ * SLCreateIterator creates an iterator object that will allow the caller
+ * to "walk" through the list from beginning to the end using SLNextItem.
+ *
+ * If the function succeeds, it returns a non-NULL pointer to a
