@@ -121,3 +121,14 @@ int SLRemove(SortedListPtr list, void *newObj);
 
 SortedListIteratorPtr SLCreateIterator(SortedListPtr list);
 
+
+/*
+ * SLDestroyIterator destroys an iterator object that was created using
+ * SLCreateIterator().  Note that this function should destroy the
+ * iterator but should NOT affect the original list used to create
+ * the iterator in any way.
+ *
+ * You need to fill in this function as part of your implementation.
+ */
+
+void SLDestroyIterator(SortedListIteratorPtr iter);
