@@ -132,3 +132,14 @@ SortedListIteratorPtr SLCreateIterator(SortedListPtr list);
  */
 
 void SLDestroyIterator(SortedListIteratorPtr iter);
+
+
+/*
+ * SLGetItem returns the pointer to the data associated with the
+ * SortedListIteratorPtr.  It should return 0 if the iterator
+ * advances past the end of the sorted list.
+ * 
+ * You need to fill in this function as part of your implementation.
+*/
+
+void * SLGetItem( SortedListIteratorPtr iter );
