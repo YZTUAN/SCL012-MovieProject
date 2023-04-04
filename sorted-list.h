@@ -143,3 +143,22 @@ void SLDestroyIterator(SortedListIteratorPtr iter);
 */
 
 void * SLGetItem( SortedListIteratorPtr iter );
+
+/*
+ * SLNextItem returns the next object in the list encapsulated by the
+ * given iterator.  It should return a NULL when the end of the list
+ * has been reached.
+ *
+ * One complication you MUST consider/address is what happens if a
+ * sorted list encapsulated within an iterator is modified while that
+ * iterator is active.  For example, what if an iterator is "pointing"
+ * to some object in the list as the next one to be returned but that
+ * object is removed from the list using SLRemove() before SLNextItem()
+ * is called.
+ *
+ * You need to fill in this function as part of your implementation.
+ */
+
+void * SLNextItem(SortedListIteratorPtr iter);
+
+#endif
